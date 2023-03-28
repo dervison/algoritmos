@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+#botones{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding: 100px 0px;
+    background: url("../../IMG/thomas-chizzali-K-ENC7LNABA-unsplash.jpg");
+    background-size: cover;
+}
+#botones button{
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 15px;
+    border-radius: 15px;
+    font-family: 'Shantell Sans', cursive;
+    transition: 0.5s;
+
+}
+#botones h1 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+body{
+    font-family: 'Shantell Sans', cursive;
+}
+#botones button:hover {
+    background: #fff ;
+    color:#000;
+    padding: 14px 50px;
+
+}
